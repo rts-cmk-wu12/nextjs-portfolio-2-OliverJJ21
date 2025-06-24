@@ -39,18 +39,18 @@ export default function ContactPage() {
               <input
                 id="email"
                 type="email"
-                placeholder="Email"
+                placeholder="Please enter your email"
                 className="p-3 font-['IBM_Plex_Mono'] rounded-lg bg-white border focus:outline-none focus:border-[#559c1b] placeholder:text-[#757575]" />
               <label htmlFor="mobile" className="text-white font-['IBM_Plex_Mono']">Mobile</label>
               <input
                 id="mobile"
                 type="tel"
-                placeholder="Mobile"
+                placeholder="Enter mobile"
                 className="p-3 font-['IBM_Plex_Mono'] rounded-lg bg-white text-black border focus:outline-none focus:border-[#559c1b] placeholder:text-[#757575]" />
               <label htmlFor="message" className="text-white font-['IBM_Plex_Mono']">Message</label>
               <textarea
                 id="message"
-                placeholder="Message"
+                placeholder="Enter your message"
                 rows="5"
                 className="p-3 font-['IBM_Plex_Mono'] rounded-lg bg-white text-black border focus:outline-none focus:border-[#559c1b] placeholder:text-[#757575]"></textarea>
               <button
